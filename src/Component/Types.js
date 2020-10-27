@@ -10,17 +10,17 @@ render(){
 	</div>
 	<div id="mystyle" >
 		<ul>
-			<li><a id="sidebar" href="index.html">The Basics</a></li>
-			<li><a id="sidebar" href="types.html">Types of Climbing</a></li>
-			<li><a id="sidebar" href="safety.html">Safety</a></li>
-			<li><a id="sidebar" href="equipment.html">Equipment</a></li>
-			<li><a id="sidebar" href="where.html">Where to Climb</a></li>
+			<li><a id="sidebar" href="Component/Basics.js">The Basics</a></li>
+			<li><a id="sidebar" href="Component/Types.js">Types of Climbing</a></li>
+			<li><a id="sidebar" href="Component/Safety.js">Safety</a></li>
+			<li><a id="sidebar" href="Component/Equipment.js">Equipment</a></li>
+			<li><a id="sidebar" href="Component/Where.js">Where to Climb</a></li>
 		</ul>
 	</div>
 	<div id="main">
 		<h2>Types of Climbing</h2>
 		<h3>Indoor verses Outdoor</h3>
-		<img class="alignleft" src="img/indoor-climbing.jpg" alt="A woman climbing indoors"/>
+		<img class="alignleft" src="assets/img/indoor-climbing.jpg" alt="A woman climbing indoors"/>
 		<p>This is exactly what it says on the tin. Most people start climbing indoors, at rock climbing gyms. These places have walls built of plywood with plastic or stone holds (grips) attached to the walls. These walls usually have marked routes, graded for the difficulty of the climb. Indoor gyms usually have all of the equipment you need, available for rent or purchase. They also often offer classes for beginners. You can climb in all weather, at all skill levels, in a safe and controlled environment. Most gyms charge a fee for a day pass, ranging from $4 to $17, which covers entrance into the gym. They will also rent you gear like a harness or shoes for a small additional fee. The Raleigh/Durham area has several good gyms. See <a href="where.html">where to climb in the triangle</a> for more information.</p>
         <p>Indoor gyms often have minimum age limits; most do not allow children under age 4 to climb. A child must also be large enough to wear a climbing harness. There are special full-body harnesses designed for young climbers.</p>
 		<p>Once you become more comfortable climbing indoors, you may want to try a real rock. Several state parks in the area, including <a href="http://www.ncparks.gov/Visit/parks/pimo/activities.php">Pilot Mountain</a> and <a href="http://www.ncparks.gov/Visit/parks/stmo/activities.php">Stone Mountain</a>, offer climbing walls. Outdoor climbing requires some extra equipment and training, so you may want to go with a group or a guided trip.</p>

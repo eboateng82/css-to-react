@@ -10,13 +10,13 @@ function App() {
   return (
     <React.Fragment>
     <div className="App">
-      <Router>
+    <Router>
     <Switch>
-    <Route exact path="/" component={Basics} />
-    <Route path="/Equipment" component={Equipment} />
-    <Route path="/Safety" component={Safety} />
-    <Route path="/Types" component={Types} />
-    <Route path="/Where" component={Where} />
+    <Route exact path="/" Component={Basics} />
+    <Route path="/Equipment" Component={Equipment} />
+    <Route path="/Safety" Component={Safety} />
+    <Route path="/Types" Component={Types} />
+    <Route path="/Where" Component={Where} />
     </Switch>
     </Router>
     </div>

@@ -1,5 +1,4 @@
 import React, {} from 'react';
-import '../index.css';
 
 class Where extends React.Component{
 render(){
@@ -11,11 +10,11 @@ render(){
 	</div>
 	<div id="mystyle" >
 		<ul>
-			<li><a id="sidebar" href="index.html">The Basics</a></li>
-			<li><a id="sidebar" href="types.html">Types of Climbing</a></li>
-			<li><a id="sidebar" href="safety.html">Safety</a></li>
-			<li><a id="sidebar" href="equipment.html">Equipment</a></li>
-			<li><a id="sidebar" href="where.html">Where to Climb</a></li>
+			<li><a id="sidebar" href="Component/Basics.js">The Basics</a></li>
+			<li><a id="sidebar" href="Component/Types.js">Types of Climbing</a></li>
+			<li><a id="sidebar" href="Component/Safety.js">Safety</a></li>
+			<li><a id="sidebar" href="Component/Equipment.js">Equipment</a></li>
+			<li><a id="sidebar" href="Component/Where.js">Where to Climb</a></li>
 		</ul>
 	</div>
 	<div id="main">
