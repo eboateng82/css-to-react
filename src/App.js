@@ -1,23 +1,24 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import Basics from './Component/Basics';
-import Equipment from './Component/Equipment';
-import Safety from './Component/Safety';
-import Types from './Component/Types';
-import Where from './Component/Where';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+import Basics from './Components/Basics';
+import Equipment from './Components/Equipment';
+import Safety from './Components/Safety';
+import Types from './Components/Types';
+import Where from './Components/Where';
 
 class App extends Component {
   render () {
     return (
   <React.Fragment>
-  
+  <Router>
     <Switch>
-    <Route exact path="/" Component={Basics}></Route>
-    <Route path="/Equipment" Component={Equipment}></Route>
-    <Route path="/Safety" Component={Safety}></Route>
-    <Route path="/Types" Component={Types}></Route>
-    <Route path="/Where" Component={Where}></Route>
+    <Route exact path="/" Component={Basics} />
+    <Route path="/Equipment" Component={Equipment} />
+    <Route path="/Safety" Component={Safety} />
+    <Route path="/Types" Component={Types} />
+    <Route path="/Where" Component={Where} />
     </Switch>
+  </Router>
     </React.Fragment>
   );
 }

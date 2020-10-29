@@ -10,7 +10,7 @@ render(){
 		<h1>Climbing the Triangle</h1>
 	</div>
 	<div className="mystyle" >
-		<ul>
+    	<ul Style={{listStyleType: none, margin: '0', padding:'0'}, {float : right}}>
 			<li><Link className="sidebar" to ="/">The Basics</Link></li>
 			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
 			<li><Link className="sidebar" to="/Safety">Safety</Link></li>

@@ -1,31 +1,31 @@
 /*My Style Sheet for CSS Assignment*/
-#header{
+.header{
 	background-color: #3B597D;
 	margin: 0;
 	padding: 1em;
 	color: #fff;}
 
-#main{background-color: #fff;
+.main{background-color: #fff;
 	padding-left:1em;
 	width: 48em; float:left;}
 
- #mystyle{background-color: #D68051;
+ .mystyle{background-color: #D68051;
           width: 15em; height: 20em; float: right;
           padding:1px; margin:auto;}
 
-#wrapper{
+.wrapper{
 	width: 65em;
 	margin: 0 auto;
 	background-color:#ffff66;}
 
-#footer{
+.footer{
 	background-color: #3B597D;
 	margin: 0;
 	padding: 1em;
 	color: #fff;
 	clear: both;}
 
-#sidebar
+.sidebar
     {
 	width: 80%;
 	height: 50px;

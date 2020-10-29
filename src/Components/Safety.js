@@ -10,8 +10,8 @@ class Safety extends React.Component{
 			<h1>Climbing the Triangle</h1>
 		</div>
 		<div className="mystyle">
-		<ul Style={{listStyleType: none, margin: '0', padding:'0'}}>
-		<li><Link className="sidebar" to ="/Basics">The Basics</Link></li>
+		<ul Style={{listStyleType: none, margin: '0', padding:'0'}, {float : right}}>
+		    <li><Link className="sidebar" to ="/Basics">The Basics</Link></li>
 			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
 			<li><Link className="sidebar" to="/">Safety</Link></li>
 			<li><Link className="sidebar" to="/Equipment">Equipment</Link></li>
