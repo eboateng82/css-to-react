@@ -1,24 +1,25 @@
 import React, {} from 'react';
+import {Link} from 'react-router-dom';
 
 class Safety extends React.Component{
 	render(){
 		return(
 			<div>
-				<div id="wrapper">
-		<div id="header">
+				<div className="wrapper">
+		<div className="header">
 			<h1>Climbing the Triangle</h1>
 		</div>
-		<div id="mystyle">
-		<ul Style="list-style-type: none; margin: 0px; padding: 0px;">
-			<li><a id="sidebar" href="Component/Basic.js">The Basics</a></li>
-			<li><a id="sidebar" href="Component/Tyypes.js">Types of Climbing</a></li>
-			<li><a id="sidebar" href="Component/Safety.js">Safety</a></li>
-			<li><a id="sidebar" href="Component/Equipment.js">Equipment</a></li>
-			<li><a id="sidebar" href="Component/Where.js">Where to Climb</a></li>
+		<div className="mystyle">
+		<ul Style={{listStyleType: none, margin: '0', padding:'0'}}>
+		<li><Link className="sidebar" to ="/Basics">The Basics</Link></li>
+			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
+			<li><Link className="sidebar" to="/">Safety</Link></li>
+			<li><Link className="sidebar" to="/Equipment">Equipment</Link></li>
+			<li><Link className="sidebar" to="/Where">Where to Climb</Link></li>
 		</ul>
 	</div>
-	<div id="main">
-		<h2 Style= "padding-top:1em;">Safety</h2>
+	<div className="main">
+		<h2 Style={{paddingTop:'1em' }}>Safety</h2>
 		<p>Is climbing safe? Well, any sport that involves leaving the ground is going to involve a certain amount of risk. Climbing is certainly more dangerous than, say, using an elliptical trainer or walking in the park. Most climbers do end up with some scrapes and bruises from harder routes.</p>
 		
 		<p>That said, climbing is nowhere near as risky as extreme sports like snowboarding. Climbers use a lot of safety equipment, and that equipment is designed and tested to survive intense forces. In fact, I feel far more comfortable 50 feet above the ground on a climbing rope than 5 feet up on a ladder. Serious climbing accidents are rare, especially in indoor climbing.</p>
@@ -33,7 +34,7 @@ class Safety extends React.Component{
 		<p>Pay attention and trust your instincts, and you should be just fine.</p>
 	</div>
 	
-	<div id="footer">
+	<div className="footer">
 		<p>A sample site by Sylvia Richardson</p>
 	</div>
 </div>

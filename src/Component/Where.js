@@ -1,23 +1,24 @@
 import React, {} from 'react';
+import {Link} from 'react-router-dom';
 
 class Where extends React.Component{
 render(){
     return(
 <div>
-<div id="wrapper">
-	<div id="header">
+<div className="wrapper">
+	<div className="header">
 		<h1>Climbing the Triangle</h1>
 	</div>
-	<div id="mystyle" >
+	<div className="mystyle" >
 		<ul>
-			<li><a id="sidebar" href="Component/Basics.js">The Basics</a></li>
-			<li><a id="sidebar" href="Component/Types.js">Types of Climbing</a></li>
-			<li><a id="sidebar" href="Component/Safety.js">Safety</a></li>
-			<li><a id="sidebar" href="Component/Equipment.js">Equipment</a></li>
-			<li><a id="sidebar" href="Component/Where.js">Where to Climb</a></li>
+		<li><Link className="sidebar" to ="/Basics">The Basics</Link></li>
+			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
+			<li><Link className="sidebar" to="/Safety">Safety</Link></li>
+			<li><Link className="sidebar" to="/Equipment">Equipment</Link></li>
+			<li><Link className="sidebar" to="/">Where to Climb</Link></li>
 		</ul>
 	</div>
-	<div id="main">
+	<div className="main">
 		<h3>Where to Climb in the Triangle</h3>
 		<p>If you are new to climbing, the <a href="http://www.meetup.com/RaleighRockClimbing/">Raleigh Rock Climbing Meetup</a> is a great place to start. They are a friendly group of climbers who organize regular outings to the local gym. Generally, you'll get a group discount on admission. You also get patient instructors who enjoy teaching new climbers.</p>
 		<p>If you prefer a more structured learning experience, many gyms offer classes for beginners.</p>
@@ -30,7 +31,7 @@ render(){
 		</ul>
 	</div>
 	
-	<div id="footer">
+	<div className ="footer">
 		<p>A sample site by Sylvia Richardson</p>
 	</div>
 </div>
