@@ -1,48 +1,38 @@
 /*My Style Sheet for CSS Assignment*/
 .header{
 	background-color: #3B597D;
-	margin: 0px;
-	padding : 1em;
+	margin: 0;
+	padding: 1em;
 	color: #fff;}
 
 .main{background-color: #fff;
 	padding-left:1em;
 	width: 48em; float:left;}
 
- .mystyle{background-color: #D68051;
+ .mystyle{background-color: #816f05;
           width: 15em; height: 20em; float: right;
           padding:1px; margin:auto;}
 
 .wrapper{
 	width: 65em;
 	margin: 0 auto;
-	background-color:#ffff66;}
+	background-color:#86867c;}
 
 .footer{
 	background-color: #3B597D;
-	margin: 0px;
+	margin: 0;
 	padding: 1em;
 	color: #fff;
 	clear: both;}
 
-.sidebar
-    {display: inline-block;
-	width: 80%;
-	height: 50px;
-	line-height: 50px;
-	font-size: 130%;
-	background: #3B597D;
-	margin:3px 7px;
-	padding: 2px 2px 2px 10px;
-	border: 1px solid #1d2c3e;
-	font-weight: bold;
-	color:#fff; text-decoration: none; text-align: left;
-}
+.sidebar{height: 50px; width: 85%; line-height: 50px; font-size: 130%; background: #3B597D; margin:3px 7px; padding: 2px 2px 2px 10px; border: 1px solid #1d2c3e; font-weight: bold;
+	color:#fff; text-decoration: none; text-align: left; float: right;}
+
 .alignright{float: right; padding: 0px 0px 1em 1em; margin: auto;}
 
 .alignleft{float: left; padding: 0px 1em 0px 0em; margin-bottom: 10px;}
 
-ul{list-style-type: none; margin: 0px; padding: 0px;}
+.fly{list-style-type: none; margin: 0px; padding: 0px; float: right}
 
 body{background-color: #D3C7B1;
 	font-family: Sans-Serif;}

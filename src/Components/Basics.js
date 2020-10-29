@@ -1,7 +1,7 @@
-import React, {} from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-class Basics extends React.Component{
+class Basics extends Component{
 render(){
     return(
         <div>
@@ -10,8 +10,8 @@ render(){
 		<h1>Climbing the Triangle</h1>
 	</div>
 	<div className="mystyle" >
-    	<ul Style={{listStyleType: none, margin: '0', padding:'0'}, {float : right}}>
-			<li><Link className="sidebar" to ="/">The Basics</Link></li>
+    	<ul className="fly">
+		    <li><Link className="sidebar" to ="/">The Basics</Link></li>
 			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
 			<li><Link className="sidebar" to="/Safety">Safety</Link></li>
 			<li><Link className="sidebar" to="/Equipment">Equipment</Link></li>

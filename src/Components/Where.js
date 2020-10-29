@@ -1,7 +1,7 @@
-import React, {} from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 
-class Where extends React.Component{
+class Where extends Component{
 render(){
     return(
 <div>
@@ -10,12 +10,12 @@ render(){
 		<h1>Climbing the Triangle</h1>
 	</div>
 	<div className="mystyle" >
-	     <ul Style={{listStyleType: none, margin: '0', padding:'0'}, {float : right}}>
-		    <li><Link className="sidebar" to ="/Basics">The Basics</Link></li>
+	<ul className="fly">
+		    <li><Link className="sidebar" to ="/">The Basics</Link></li>
 			<li><Link className="sidebar" to="/Types">Types of Climbing</Link></li>
 			<li><Link className="sidebar" to="/Safety">Safety</Link></li>
 			<li><Link className="sidebar" to="/Equipment">Equipment</Link></li>
-			<li><Link className="sidebar" to="/">Where to Climb</Link></li>
+			<li><Link className="sidebar" to="/Where">Where to Climb</Link></li>
 		</ul>
 	</div>
 	<div className="main">
